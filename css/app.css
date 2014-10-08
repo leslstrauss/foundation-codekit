@@ -12591,7 +12591,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #C0C0C0; }
+  background: #FFFFFF; }
   .contain-to-grid .top-bar {
     margin-bottom: 10px; }
 
@@ -12612,14 +12612,14 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 100px; }
+      margin-top: 50px; }
 
 .top-bar {
   overflow: hidden;
-  height: 100px;
-  line-height: 100px;
+  height: 50px;
+  line-height: 50px;
   position: relative;
-  background: #C0C0C0;
+  background: #FFFFFF;
   margin-bottom: 10px; }
   .top-bar ul {
     margin-bottom: 0;
@@ -12647,11 +12647,11 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 100px;
+    height: 50px;
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
-      line-height: 100px;
+      line-height: 50px;
       font-size: 1.0625rem;
       margin: 0; }
       .top-bar .name h1 a {
@@ -12659,7 +12659,7 @@ meta.foundation-mq-topbar {
         color: #000000;
         width: 75%;
         display: block;
-        padding: 0 33.3333333333px; }
+        padding: 0 16.6666666667px; }
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -12671,16 +12671,16 @@ meta.foundation-mq-topbar {
       font-weight: bold;
       position: relative;
       display: block;
-      padding: 0 33.3333333333px;
-      height: 100px;
-      line-height: 100px; }
+      padding: 0 16.6666666667px;
+      height: 50px;
+      line-height: 50px; }
     .top-bar .toggle-topbar.menu-icon {
       top: 50%;
       margin-top: -16px; }
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
-        padding: 0 58.3333333333px 0 33.3333333333px;
+        padding: 0 41.6666666667px 0 16.6666666667px;
         color: #FFFFFF;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
@@ -12690,7 +12690,7 @@ meta.foundation-mq-topbar {
           height: 0;
           top: 50%;
           margin-top: -8px;
-          right: 33.3333333333px;
+          right: 16.6666666667px;
           box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
@@ -12699,7 +12699,7 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #C0C0C0; }
+      background: #FFFFFF; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -12719,7 +12719,7 @@ meta.foundation-mq-topbar {
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #606060;
+    border-top: solid 1px gray;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -12730,15 +12730,15 @@ meta.foundation-mq-topbar {
       width: 100%;
       color: #000000;
       padding: 12px 0 12px 0;
-      padding-left: 33.3333333333px;
+      padding-left: 16.6666666667px;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
       .top-bar-section ul li > a.button {
         font-size: 0.8125rem;
-        padding-right: 33.3333333333px;
-        padding-left: 33.3333333333px;
+        padding-right: 16.6666666667px;
+        padding-left: 16.6666666667px;
         background-color: #008CBA;
         border-color: #007095;
         color: #FFFFFF; }
@@ -12772,8 +12772,8 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li > button {
       font-size: 0.8125rem;
-      padding-right: 33.3333333333px;
-      padding-left: 33.3333333333px;
+      padding-right: 16.6666666667px;
+      padding-left: 16.6666666667px;
       background-color: #008CBA;
       border-color: #007095;
       color: #FFFFFF; }
@@ -12816,7 +12816,7 @@ meta.foundation-mq-topbar {
         background: #FFFFFF;
         color: #000000; }
   .top-bar-section .has-form {
-    padding: 33.3333333333px; }
+    padding: 16.6666666667px; }
   .top-bar-section .has-dropdown {
     position: relative; }
     .top-bar-section .has-dropdown > a:after {
@@ -12827,7 +12827,7 @@ meta.foundation-mq-topbar {
       border: inset 5px;
       border-color: transparent transparent transparent rgba(192, 192, 192, 0.4);
       border-left-style: solid;
-      margin-right: 33.3333333333px;
+      margin-right: 16.6666666667px;
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
@@ -12862,7 +12862,7 @@ meta.foundation-mq-topbar {
       height: auto; }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 33.3333333333px; }
+        padding: 8px 16.6666666667px; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: normal; }
       .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -12875,11 +12875,11 @@ meta.foundation-mq-topbar {
           .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
             background: none; }
       .top-bar-section .dropdown li.has-form {
-        padding: 8px 33.3333333333px; }
+        padding: 8px 16.6666666667px; }
       .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
         top: auto; }
     .top-bar-section .dropdown label {
-      padding: 8px 33.3333333333px 2px;
+      padding: 8px 16.6666666667px 2px;
       margin-bottom: 0;
       text-transform: uppercase;
       color: #FFFFFF;
@@ -12891,7 +12891,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #C0C0C0;
+    background: #FFFFFF;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -12911,7 +12911,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 7px; }
     .top-bar.expanded {
-      background: #C0C0C0; }
+      background: #FFFFFF; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
@@ -12934,22 +12934,22 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: #C0C0C0; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 33.3333333333px;
-      line-height: 100px;
-      background: #C0C0C0; }
+      padding: 0 16.6666666667px;
+      line-height: 50px;
+      background: #FFFFFF; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
-      padding: 0 33.3333333333px;
-      line-height: 100px;
+      padding: 0 16.6666666667px;
+      line-height: 50px;
       color: #000000;
       background: #C0C0C0; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #FFFFFF;
         color: #000000; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 53.3333333333px !important; }
+      padding-right: 36.6666666667px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
@@ -12959,7 +12959,7 @@ meta.foundation-mq-topbar {
         border-color: rgba(192, 192, 192, 0.4) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
-        top: 50px; }
+        top: 25px; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -12999,9 +12999,9 @@ meta.foundation-mq-topbar {
       min-width: 100%; }
       .top-bar-section .dropdown li a {
         color: #000000;
-        line-height: 100px;
+        line-height: 50px;
         white-space: nowrap;
-        padding: 12px 33.3333333333px;
+        padding: 12px 16.6666666667px;
         background: #C0C0C0; }
       .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
         color: #000000;
@@ -13019,14 +13019,14 @@ meta.foundation-mq-topbar {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #c8c8c8;
+      border-right: solid 1px white;
       clear: none;
-      height: 100px;
+      height: 50px;
       width: 0; }
     .top-bar-section .has-form {
-      background: #C0C0C0;
-      padding: 0 33.3333333333px;
-      height: 100px; }
+      background: #FFFFFF;
+      padding: 0 16.6666666667px;
+      height: 50px; }
     .top-bar-section .right li .dropdown {
       left: auto;
       right: 0; }
