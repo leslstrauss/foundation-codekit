@@ -132,11 +132,11 @@ $jet         : #222222;
 $black       : #000000;
 
 // We use these to control various global styles
-$body-bg: $white;
-$body-font-color: $jet;
-$body-font-family: $font-family-sans-serif;
-$body-font-weight: $font-weight-normal;
-$body-font-style: normal;
+// $body-bg: $white;
+// $body-font-color: $jet;
+// $body-font-family: $font-family-sans-serif;
+// $body-font-weight: $font-weight-normal;
+// $body-font-style: normal;
 
 // We use this to control font-smoothing
 $font-smoothing: antialiased;
@@ -1373,14 +1373,16 @@ $shiny-edge-active-color: rgba($black, .2);
 // $topbar-bg: $topbar-bg-color;
 
     // Background color for the top bar
-    $topbar-bg-color: #FFFFFF;
+    // 
+    // $topbar-bg-color: #FFFFFF;
 
 
 // Height and margin
 // $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
-    $topbar-margin-bottom: 10px;
-    $topbar-height: 50px;
+// 
+    // $topbar-margin-bottom: 10px;
+    // $topbar-height: 50px;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
@@ -1394,13 +1396,14 @@ $shiny-edge-active-color: rgba($black, .2);
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $white;
 // $topbar-dropdown-toggle-alpha: 0.4;
-    $topbar-dropdown-bg: #C0C0C0;
+// 
+    $topbar-dropdown-bg: #FFFFFF;
     $topbar-dropdown-link-color: #000000;
-    $topbar-dropdown-link-bg: #C0C0C0;
-    $topbar-dropdown-link-weight: $font-weight-normal;
-    $topbar-dropdown-toggle-size: 5px;
-    $topbar-dropdown-toggle-color: #C0C0C0;
-    $topbar-dropdown-toggle-alpha: 0.4;
+    $topbar-dropdown-link-bg: #FFFFFF;
+    // $topbar-dropdown-link-weight: $font-weight-normal;
+    // $topbar-dropdown-toggle-size: 5px;
+    // $topbar-dropdown-toggle-color: #C0C0C0;
+    // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: $white;
@@ -1420,18 +1423,22 @@ $shiny-edge-active-color: rgba($black, .2);
 // $topbar-link-padding: $topbar-height / 3;
 // $topbar-back-link-size: $h5-font-size;
 // $topbar-link-dropdown-padding: 20px;
-    $topbar-link-color: #000000;
-    $topbar-link-color-hover: #C0C0C0;
-    $topbar-link-color-active: #000000;
-    $topbar-link-color-active-hover: #000000;
+// 
+    // $topbar-link-color: #000000;
+    // $topbar-link-color-hover: #C0C0C0;
+    // $topbar-link-color-active: #000000;
+    // $topbar-link-color-active-hover: #000000;
+    // 
     // $topbar-link-weight: $font-weight-normal;
     // $topbar-link-font-size: rem-calc(13);
     // $topbar-link-hover-lightness: -10%; // Darken by 10%
     // $topbar-link-bg: $topbar-bg;
     // $topbar-link-bg-color-hover: $charcoal;
     // $topbar-link-bg-hover: #272727;
-    $topbar-link-bg-active: #C0C0C0;
-    $topbar-link-bg-active-hover: #FFFFFF;
+    // 
+    // $topbar-link-bg-active: #C0C0C0;
+    // $topbar-link-bg-active-hover: #FFFFFF;
+    // 
     // $topbar-link-font-family: $body-font-family;
     // $topbar-link-text-transform: none;
     // $topbar-link-padding: $topbar-height / 3;
@@ -1447,11 +1454,13 @@ $shiny-edge-active-color: rgba($black, .2);
 // $topbar-dropdown-label-font-size: rem-calc(10);
 // $topbar-dropdown-label-bg: $oil;
 
-$topbar-dropdown-label-color: #FFFFFF;
+// $topbar-dropdown-label-color: #FFFFFF;
+// 
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: $font-weight-bold;
 // $topbar-dropdown-label-font-size: rem-calc(10);
-$topbar-dropdown-label-bg: #FFFFFF;
+// 
+// $topbar-dropdown-label-bg: #FFFFFF;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
